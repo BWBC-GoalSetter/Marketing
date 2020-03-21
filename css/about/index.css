@@ -166,6 +166,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+iframe {
+  width: 50%;
+  height: 60vh;
+  margin: 0 auto;
+}
 .contact input,
 .contact textarea,
 .contact select {
