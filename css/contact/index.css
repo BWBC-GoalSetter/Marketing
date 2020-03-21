@@ -136,7 +136,6 @@ html,
 body {
   font-family: "Sen", sans-serif;
   color: black;
-  background-color: orange;
   margin: 1%;
 }
 h1,
@@ -166,7 +165,7 @@ img {
   max-width: 100%;
 }
 .container {
-  background-color: cornflowerblue;
+  background-color: orange;
 }
 .body-wrapper {
   max-width: 1200px;
