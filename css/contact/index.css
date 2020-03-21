@@ -162,19 +162,96 @@ img {
   max-width: 100%;
 }
 .container {
-  max-width: 1100px;
+  background-color: cornflowerblue;
+}
+.body-wrapper {
+  max-width: 1200px;
   width: 100%;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  background-color: lightcyan;
+}
+@media (min-width: 1200px) {
+  .nav {
+    justify-content: center;
+  }
+}
+.nav .logo {
+  margin-left: 20px;
+}
+.nav nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 900px;
+}
+.nav nav a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+footer {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer nav {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+footer nav a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+footer p {
+  text-align: center;
+}
+iframe {
+  width: 50%;
+  height: 60vh;
   margin: 0 auto;
 }
 .contact input,
 .contact textarea,
 .contact select {
   display: block;
+  width: 100%;
+  margin-bottom: 15px;
 }
 .contact label {
+  display: block;
   font-size: 1.8em;
+  margin-bottom: 5px;
+}
+.contact p,
+.contact h1,
+.contact img {
+  padding-bottom: 10px;
+}
+.contact section {
+  padding: 0 3%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact section .left,
+.contact section .right {
+  width: 46%;
+}
+.contact header {
   margin-bottom: 20px;
 }
-.contact p {
-  padding-bottom: 10px;
+.contact header p {
+  padding: 0 3%;
 }
