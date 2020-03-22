@@ -155,10 +155,10 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   line-height: 1.4;
   color: #ffa500;
-  font-family: "Sen", sans-serif;
+  font-family: "Baloo Da 2", sans-serif;
 }
 img {
   max-width: 100%;
@@ -198,15 +198,25 @@ button:hover {
   align-items: center;
   padding: 20px 0;
   margin: 0 auto;
-  background-color: lightcyan;
+  border-bottom: 1px solid #ffa500;
+  background-color: #423b6f;
 }
 @media (min-width: 1200px) {
   .nav {
     justify-content: center;
   }
 }
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
+}
 .nav .logo {
   margin-left: 20px;
+  width: 200px;
+}
+.nav .logo img {
+  padding: 0;
 }
 .nav nav {
   width: 70%;
@@ -217,63 +227,38 @@ button:hover {
 .nav nav a {
   font-size: 2.6rem;
   text-decoration: none;
+  color: #ffa500;
+  box-sizing: border-box;
+}
+.nav nav a:hover {
+  border-bottom: 3px solid #ffa500;
 }
 footer {
-  background-color: lightcyan;
+  background-color: #2e294e;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #ffa500;
 }
 footer nav {
   width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 footer nav a {
   text-align: center;
   text-decoration: none;
   font-size: 1.6rem;
+  color: #ffa500;
 }
 footer p {
   text-align: center;
 }
 .home-bodywrap {
   background-color: #2e294e;
-}
-.nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  background-color: #423b6f;
-}
-.nav img {
-  width: 50%;
-}
-@media (max-width: 500px) {
-  .nav img {
-    display: none;
-  }
-}
-.nav nav {
-  width: 100%;
-  margin-right: 8%;
-}
-@media ((max-width: 500px)) {
-  .nav nav {
-    margin-right: 5%;
-  }
-}
-.nav a {
-  color: #ffa500;
-}
-@media (max-width: 500px) {
-  .nav a {
-    padding: 0 10%;
-  }
 }
 header {
   margin-top: 3%;
@@ -406,6 +391,7 @@ header div img {
   margin-left: 5%;
 }
 footer {
+  border-top: 1px solid #ffa500;
   background-color: #423b6f;
   display: flex;
   flex-direction: column;
@@ -435,19 +421,40 @@ footer p {
   display: block;
   width: 100%;
   margin-bottom: 15px;
+  background-color: #3d348b;
+  border: 1px solid #7678ED;
+  color: #7678ED;
+}
+.contact .submit {
+  padding: 20px 0;
+  font-size: 2rem;
+  background-color: #7678ED;
+  color: #ffa500;
+}
+.contact .submit:hover {
+  background-color: #ffa500;
+  color: #7678ED;
 }
 .contact label {
   display: block;
   font-size: 1.8em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  color: #ffa500;
 }
 .contact p,
 .contact h1,
 .contact img {
   padding-bottom: 10px;
 }
+.contact h1,
+.contact h2 {
+  padding: 20px 0;
+}
+.contact form {
+  padding-top: 20px;
+}
 .contact section {
-  padding: 0 3%;
+  padding: 3% 3%;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -456,9 +463,72 @@ footer p {
 .contact section .right {
   width: 46%;
 }
+.contact section .left {
+  height: 100%;
+  /* &:after {
+            position: absolute;
+            display: inline-block;
+            top: 0px;
+            left: 0px;
+            content: "";
+            height: 70%;
+            border-right: 1px solid @text-color;
+            width: 100%;
+        }
+        */
+}
+@media (max-width: 500px) {
+  .contact section {
+    flex-direction: column;
+  }
+  .contact section .left,
+  .contact section .right {
+    width: 100%;
+  }
+  .contact section .left img,
+  .contact section .left p {
+    display: none;
+  }
+}
 .contact header {
   margin-bottom: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ffa500;
 }
 .contact header p {
   padding: 0 3%;
+}
+.about .container {
+  background-color: #2e294e;
+  color: #ffa500;
+}
+.about .photos {
+  border: 1px solid black;
+  max-width: 100%;
+  display: flex;
+}
+.about section p {
+  margin-bottom: 2%;
+}
+.about section h2 {
+  padding: 20px;
+}
+.about .sell {
+  display: flex;
+  flex-direction: column;
+}
+.about section .h3 {
+  display: flex;
+  justify-content: center;
+}
+.about .article {
+  padding: 0 3%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 46%;
+}
+.about .inspire {
+  border-radius: 25px;
 }

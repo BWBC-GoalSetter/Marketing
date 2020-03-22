@@ -2,40 +2,6 @@
     background-color: @background-color;
 }
 
-.nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background-color: @background-color2;
-
-    img {
-        width: 50%;
-
-        @media @phone {
-            display: none;
-        }
-    }
-
-    nav {
-        width: 100%;
-        margin-right: 8%;
-
-        @media (@phone) {
-            margin-right: 5%;
-        }
-    }
-
-    a {
-        color: @text-color;
-
-        @media @phone {
-            padding: 0 10%;
-        }
-    }
-}
-
 header {
     margin-top: 3%;
 
@@ -176,6 +142,7 @@ header {
 }
 
 footer {
+    border-top: 1px solid @text-color;
     background-color: @background-color2;
     display: flex;
     flex-direction: column;
