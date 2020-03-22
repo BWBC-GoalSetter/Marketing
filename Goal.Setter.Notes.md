@@ -25,9 +25,6 @@ Get organized and track anything you want to build the perfect routine. Stay mot
 
 <!--About Notes>
 
-
-
-
 <!--Presentation Notes>
 Reasons for using the color pallette:
 Brown
