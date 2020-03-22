@@ -530,14 +530,36 @@ footer p {
 .contact header p {
   padding: 0 3%;
 }
+.about p {
+  text-indent: 20px;
+}
+.about .logo {
+  margin-left: 5%;
+}
 .about .container {
   background-color: #2e294e;
   color: #ffa500;
 }
 .about .photos {
-  border: 1px solid black;
   max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about .photos div {
+  width: 20%;
+}
+@media (max-width: 500px) {
+  .about .photos div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.about .photos img {
+  border-radius: 25px;
+  width: 100%;
 }
 .about section p {
   margin-bottom: 2%;
@@ -549,9 +571,8 @@ footer p {
   display: flex;
   flex-direction: column;
 }
-.about section .h3 {
-  display: flex;
-  justify-content: center;
+.about section h3 {
+  text-align: center;
 }
 .about .article {
   padding: 0 3%;
@@ -563,4 +584,7 @@ footer p {
 }
 .about .inspire {
   border-radius: 25px;
+  max-width: 70%;
+  display: flex;
+  margin: 0 auto;
 }

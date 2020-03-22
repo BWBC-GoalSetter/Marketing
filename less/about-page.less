@@ -1,15 +1,36 @@
 .about {
 
+p {
+    text-indent: 20px;
+}   
+.logo {
+    margin-left: 5%;
+}
 .container {
     background-color: @background-color;
     color: @text-color;
 }  
 .photos {
-    border: 1px solid black;
+    // border: 1px solid black;
     max-width: 100%;
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.photos div{
+width:20%;
+    @media @phone{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.photos img{
+    border-radius: 25px;
+    width: 100%;   
     // align-items: center;
-    // justify-content: center;
+    // justify-content: space-evenly;
 }
 section p {
     margin-bottom: 2%;
@@ -22,9 +43,8 @@ section h2 {
     display: flex;
     flex-direction: column;
 }
-section .h3{
-    display: flex;
-    justify-content: center;
+section h3{
+    text-align: center;
 }
 	.article {
 		padding: 0 3%;
@@ -36,5 +56,9 @@ section .h3{
 }
 .inspire{
     border-radius: 25px;
+    max-width:70%;
+    display:flex;
+    margin: 0 auto;
+    // justify-content:center;
 }
 }
