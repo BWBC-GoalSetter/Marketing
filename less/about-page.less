@@ -25,6 +25,10 @@ p {
 .photos div{
 width:20%;
 margin: 20px 0;
+
+@media (max-width:920px) {
+    width: 45%;
+}
     @media @phone{
         width:100%;
         display: flex;
@@ -32,9 +36,7 @@ margin: 20px 0;
         justify-content: center;
     }
 
-    @media (max-width:920px) {
-        width: 45%;
-    }
+
 }
 .photos img{
     border-radius: 25px;
