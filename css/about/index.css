@@ -521,17 +521,17 @@ footer p {
   width: 20%;
   margin: 20px 0;
 }
+@media (max-width: 920px) {
+  .about .photos div {
+    width: 45%;
+  }
+}
 @media (max-width: 500px) {
   .about .photos div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-}
-@media (max-width: 920px) {
-  .about .photos div {
-    width: 45%;
   }
 }
 .about .photos img {
