@@ -136,6 +136,7 @@ html,
 body {
   font-family: "Sen", sans-serif;
   color: black;
+  margin: 1%;
 }
 h1,
 h2,
@@ -219,35 +220,7 @@ footer nav a {
 footer p {
   text-align: center;
 }
-.home-bodywrap {
-  background-color: orange;
-}
-.nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  background-color: #f4bc08;
-}
-.nav img {
-  width: 50%;
-}
-.nav nav {
-  width: 100%;
-  margin-right: 8%;
-}
-.nav a {
-  color: black;
-}
-header {
-  margin-top: 3%;
-}
 header h1 {
-  text-align: center;
-  margin-bottom: 5%;
-}
-header h2 {
   text-align: center;
 }
 header div {
@@ -277,65 +250,6 @@ header div img {
 .feature-2,
 .feature-3 {
   background-color: #f5bb0a;
-  border-radius: 10px;
-  margin: 0 3%;
-}
-.smart-sec {
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-.smart-sec h2 {
-  text-align: center;
-  margin-bottom: 2%;
-  color: black;
-  font-family: "Sen", sans-serif;
-}
-.smart-container ul {
-  margin-right: 2%;
-}
-.smart-container li {
-  text-align: center;
-  font-size: 3.2rem;
-  padding: 1% 0;
-}
-.specific {
-  margin-right: 0.5%;
-}
-.measurable {
-  margin-left: 5%;
-}
-.actionable {
-  margin-left: 3.8%;
-}
-.relevant {
-  margin-left: 1.3%;
-}
-.time-frame {
-  margin-left: 5%;
-}
-footer {
-  background-color: #f5bb0a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-footer nav {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-}
-footer nav a {
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: orangered;
-}
-footer p {
-  text-align: center;
-  color: orangered;
-  margin-top: 0.5%;
 }
 .contact input,
 .contact textarea,
