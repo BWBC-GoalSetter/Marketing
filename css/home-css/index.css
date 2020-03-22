@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+html,
+body {
+	font-family: "Sen", sans-serif;
+	color: black;
+	background-color: orange;
+	margin: 1%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Baloo Da 2", cursive;
+	color: orangered;
+}
+h1 {
+	font-size: 4.2rem;
+}
+h2 {
+	font-size: 3.2rem;
+}
+h3 {
+	font-size: 2.8rem;
+}
+p {
+	font-size: 1.6rem;
+	line-height: 1.4;
+	color: orangered;
+	font-family: "Baloo Da 2", cursive;
+}
+img {
+	max-width: 100%;
+}
+.container {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+header h1 {
+	text-align: center;
+}
+header div {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+header div img {
+	width: 80%;
+}
+.features h2 {
+	text-align: center;
+	margin: 3% 0;
+}
+.features div {
+	width: 65%;
+	padding: 5%;
+}
+.features div p {
+	font-size: 2rem;
+}
+.feature-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 18%;
+}
+.feature-1,
+.feature-2,
+.feature-3 {
+	background-color: #f5bb0a;
+}
+.contact input,
+.contact textarea,
+.contact select {
+	display: block;
+}
+.contact label {
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+.contact p {
+	padding-bottom: 10px;
+}
