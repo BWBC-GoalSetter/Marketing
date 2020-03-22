@@ -45,20 +45,40 @@
        display: flex;
        justify-content: space-between;
 
-
        .left, .right {
            width: 46%;
        }
 
        .left{
         height: 100%;
-        &:after {
-            display: block;
+       /* &:after {
+            position: absolute;
+            display: inline-block;
+            top: 0px;
+            left: 0px;
+            content: "";
             height: 70%;
             border-right: 1px solid @text-color;
             width: 100%;
         }
+        */
        }
+
+       @media (max-width: 500px) {
+
+        flex-direction: column;
+
+        .left, .right {
+            width: 100%;
+        }
+
+        .left {
+            
+            img, p {
+                display: none;
+            }
+        }
+    }
     }
 
     header {
