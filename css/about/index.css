@@ -389,7 +389,7 @@ footer p {
   display: flex;
   flex-direction: column;
 }
-.about .h3 {
+.about section .h3 {
   display: flex;
   justify-content: center;
 }
