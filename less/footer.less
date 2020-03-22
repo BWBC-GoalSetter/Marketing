@@ -1,20 +1,23 @@
 footer {
-    background-color: lightcyan;
+    background-color: @background-color;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid @text-color;
 
     nav {
         width: 60%;
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
-        padding: 10px 0;
+        padding: 20px 0;
 
         a {
             text-align: center;
             text-decoration: none;
             font-size: 1.6rem;
+            color: @text-color;
         }
     }
 

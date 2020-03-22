@@ -136,7 +136,6 @@ html,
 body {
   font-family: "Sen", sans-serif;
   color: black;
-  margin: 1%;
 }
 h1,
 h2,
@@ -144,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: "Baloo Da 2", cursive;
-  color: orangered;
+  color: #FFA500;
 }
 h1 {
   font-size: 4.2rem;
@@ -156,16 +155,16 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   line-height: 1.4;
-  color: orangered;
+  color: #FFA500;
   font-family: "Baloo Da 2", cursive;
 }
 img {
   max-width: 100%;
 }
 .container {
-  background-color: orange;
+  background-color: #2E294E;
 }
 .body-wrapper {
   max-width: 1200px;
@@ -179,7 +178,8 @@ img {
   align-items: center;
   padding: 20px 0;
   margin: 0 auto;
-  background-color: lightcyan;
+  border-bottom: 1px solid #FFA500;
+  background-color: #2E294E;
 }
 @media (min-width: 1200px) {
   .nav {
@@ -188,6 +188,10 @@ img {
 }
 .nav .logo {
   margin-left: 20px;
+  width: 200px;
+}
+.nav .logo img {
+  padding: 0;
 }
 .nav nav {
   width: 70%;
@@ -198,24 +202,32 @@ img {
 .nav nav a {
   font-size: 2.6rem;
   text-decoration: none;
+  color: #FFA500;
+  box-sizing: border-box;
+}
+.nav nav a:hover {
+  border-bottom: 3px solid #FFA500;
 }
 footer {
-  background-color: lightcyan;
+  background-color: #2E294E;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #FFA500;
 }
 footer nav {
   width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 footer nav a {
   text-align: center;
   text-decoration: none;
   font-size: 1.6rem;
+  color: #FFA500;
 }
 footer p {
   text-align: center;
@@ -257,19 +269,40 @@ header div img {
   display: block;
   width: 100%;
   margin-bottom: 15px;
+  background-color: #3d348b;
+  border: 1px solid #7678ED;
+  color: #7678ED;
+}
+.contact .submit {
+  padding: 20px 0;
+  font-size: 2rem;
+  background-color: #7678ED;
+  color: #FFA500;
+}
+.contact .submit:hover {
+  background-color: #FFA500;
+  color: #7678ED;
 }
 .contact label {
   display: block;
   font-size: 1.8em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  color: #FFA500;
 }
 .contact p,
 .contact h1,
 .contact img {
   padding-bottom: 10px;
 }
+.contact h1,
+.contact h2 {
+  padding: 20px 0;
+}
+.contact form {
+  padding-top: 20px;
+}
 .contact section {
-  padding: 0 3%;
+  padding: 3% 3%;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -278,8 +311,19 @@ header div img {
 .contact section .right {
   width: 46%;
 }
+.contact section .left {
+  height: 100%;
+}
+.contact section .left:after {
+  display: block;
+  height: 70%;
+  border-right: 1px solid #FFA500;
+  width: 100%;
+}
 .contact header {
   margin-bottom: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #FFA500;
 }
 .contact header p {
   padding: 0 3%;
