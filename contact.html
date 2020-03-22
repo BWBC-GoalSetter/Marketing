@@ -1,96 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Baloo+Da+2|Sen&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/contact/index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact - Goal Setter</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2|Sen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/contact/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Goal Setter
-    </title>
-</head>
-
-<body>
-    <div class="container contact">
-
-        <div class="nav">
-            <div class="logo">
-                <img src="img/coffee.jpg" alt="Goal Setter Logo" width="100px">
+    <body>
+        <div class="container contact">
+            <div class="nav">
+                <div class="logo">
+                    <img
+                        src="img/coffee.jpg"
+                        alt="Goal Setter Logo"
+                        width="100px"
+                    />
+                </div>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
             </div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
+            <div class="body-wrapper">
+                <header>
+                    <img src="img/goals-banner.jpg" alt="Hero Image" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Exercitationem reprehenderit magni eligendi optio
+                        iure tempora omnis obcaecati quam vitae, labore officiis
+                        numquam debitis vero praesentium corrupti sapiente nobis
+                        voluptates eos.
+                    </p>
+                </header>
+
+                <section>
+                    <div class="left">
+                        <h1>Contact Us</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Mollitia, earum temporibus, commodi, odit ea
+                            perspiciatis aperiam doloremque dolore vitae
+                            necessitatibus nihil corporis sunt consectetur quis
+                            quam molestias illum. Aspernatur, aut.
+                        </p>
+                    </div>
+
+                    <div class="right">
+                        <form action="index.html">
+                            <label for="f-name">First Name</label>
+                            <input type="text" name="f-name" id="f-name" />
+                            <label for="l-name">Last Name</label>
+                            <input type="text" name="l-name" id="l-name" />
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" />
+                            <label for="reason"
+                                >Reason for contacting us?</label
+                            >
+                            <select name="reason" id="reason">
+                                <option value="" selected disabled
+                                    >Please select why you are contacting
+                                    us</option
+                                >
+                                <option value="alert"
+                                    >Alert me when the App launches</option
+                                >
+                                <option value="invest"
+                                    >I'm impressed! Do you take investors? Take
+                                    my money!</option
+                                >
+                                <option value="job"
+                                    >You guys are awesome. Can I work for
+                                    you?</option
+                                >
+                                <option value="other">Something else</option>
+                            </select>
+                            <label for="message">Type your message below</label>
+                            <textarea
+                                name="message"
+                                id="message"
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                            <input type="button" value="Submit" />
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <footer>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
+
+                <p>Design and content createy by Gred, Ian, Liam, and Justin</p>
+            </footer>
         </div>
-        <div class="body-wrapper">
-
-            <header>
-
-                <img src="img/goals-banner.jpg" alt="Hero Image">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reprehenderit magni
-                    eligendi optio iure tempora omnis obcaecati quam vitae, labore officiis numquam debitis vero
-                    praesentium corrupti sapiente nobis voluptates eos.
-                </p>
-
-            </header>
-
-            <section>
-                <div class="left">
-                    <h1>Contact Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, earum temporibus, commodi,
-                        odit ea perspiciatis aperiam doloremque dolore vitae necessitatibus nihil corporis sunt
-                        consectetur quis quam molestias illum. Aspernatur, aut.</p>
-                </div>
-
-                <div class="right">
-                    <form action="index.html">
-
-                        <label for="f-name">First Name</label>
-                        <input type="text" name="f-name" id="f-name">
-                        <label for="l-name">Last Name</label>
-                        <input type="text" name="l-name" id="l-name">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                        <label for="reason">Reason for contacting us?</label>
-                        <select name="reason" id="reason">
-                            <option value="" selected disabled>Please select why you are contacting us</option>
-                            <option value="alert">Alert me when the App launches</option>
-                            <option value="invest">I'm impressed! Do you take investors? Take my money!</option>
-                            <option value="job">You guys are awesome. Can I work for you?</option>
-                            <option value="other">Something else</option>
-                        </select>
-                        <label for="message">Type your message below</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                        <input type="button" value="Submit">
-
-
-                    </form>
-
-                </div>
-
-
-            </section>
-        </div>
-
-
-
-        <footer>
-
-           
-
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-
-            <p>Design and content createy by Gred, Ian, Liam, and Justin</p>
-        </footer>
-
-    </div>
-
-</body>
-
+    </body>
 </html>
